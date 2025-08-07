@@ -6,80 +6,143 @@
   <title>Amani Karem Portfolio</title>
   <style>
     body {
-      margin: 0;
       font-family: 'Arial', sans-serif;
-      background-color: #fff0f5; /* Pink background */
-      color: #6b2144; /* Deep rose text */
-      text-align: center;
+      background-color: #fff0f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
     }
-
     header {
-      padding: 50px 20px;
+      text-align: center;
       background-color: #ffffff;
+      padding: 40px 20px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
-
-    img.profile {
+    img {
+      border-radius: 50%;
       width: 180px;
       height: 180px;
-      border-radius: 50%;
       object-fit: cover;
-      border: 5px solid #f8c8dc;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      border: 4px solid #ff69b4;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     }
-
     h1 {
-      font-size: 32px;
-      margin-top: 20px;
-      color: #d63384;
-    }
-
-    p.role {
-      font-size: 20px;
-      font-weight: bold;
       color: #ff69b4;
-      margin-top: 8px;
+      margin: 15px 0 5px;
     }
-
-    p.description {
-      max-width: 600px;
-      margin: 20px auto;
-      font-size: 16px;
-      color: #6b2144;
+    h2 {
+      color: #d63384;
+      border-bottom: 2px solid #ff69b4;
+      padding-bottom: 5px;
+      margin-top: 40px;
     }
-
-    .links a {
-      margin: 10px;
-      text-decoration: none;
-      color: white;
-      background-color: #ff69b4;
-      padding: 12px 20px;
-      border-radius: 8px;
-      display: inline-block;
-      font-weight: bold;
-      transition: background-color 0.3s ease;
+    .container {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
     }
-
-    .links a:hover {
-      background-color: #e75490;
+    .section {
+      margin-bottom: 30px;
+    }
+    .info p {
+      margin: 5px 0;
+    }
+    .project, .education, .skills {
+      background-color: #ffe6f0;
+      padding: 15px;
+      border-left: 5px solid #ff69b4;
+      margin-top: 15px;
+    }
+    ul {
+      padding-left: 20px;
+      margin-top: 10px;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <img src="IMG_6521.jpeg" alt="Amani Karem" class="profile" />
+    <img src="profile.jpg" alt="Amani Karem" />
     <h1>Amani Karem Mahmoud</h1>
-    <p class="role">UI/UX Designer</p>
-    <p class="description">
-      Welcome to my personal portfolio! I'm passionate about crafting intuitive, modern, and beautiful user experiences that make people's lives easier.
-    </p>
-    <div class="links">
-      <a href="mailto:amokaareon07@gmail.com">Email Me</a>
-      <a href="https://www.linkedin.com/in/amani-karem-8a6162324/" target="_blank">LinkedIn</a>
+    <p>UI/UX Designer</p>
+    <div class="info">
+      <p>Email: manokarem07@gmail.com</p>
+      <p>Phone: 01060715517</p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/amani-karem-8a6162324" target="_blank">amani-karem-8a6162324</a></p>
     </div>
   </header>
+
+  <div class="container">
+    
+    <section class="section">
+      <h2>About Me</h2>
+      <p>
+        Junior UI/UX Designer with hands-on experience from academic and personal projects.
+        Skilled in wireframing, prototyping, user research, and mobile UI design.
+        Passionate about creating user-friendly interfaces and always eager to learn and grow.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <strong>Technical Skills:</strong>
+        <ul>
+          <li>Figma</li>
+          <li>Wireframing</li>
+          <li>Prototyping</li>
+          <li>User Research</li>
+          <li>Personas</li>
+          <li>Empathy Maps</li>
+          <li>User Flows</li>
+          <li>Mobile UI Design</li>
+        </ul>
+        <strong>Soft Skills:</strong>
+        <ul>
+          <li>Problem Solving</li>
+          <li>UI/UX Thinking</li>
+          <li>Time Management</li>
+          <li>Team Collaboration</li>
+          <li>Fast Learner</li>
+          <li>Attention to Detail</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Project: Speakly – Language Learning App</h2>
+      <div class="project">
+        A mobile application designed to help users learn new languages through interactive lessons,
+        gamification, and social features. I designed the full user flow from onboarding to learning,
+        including login, language selection, progress tracking, and friend-based chat for practice.
+        The design focused on simplicity, accessibility, and motivation through visual feedback and user rankings.
+        <br><br>
+        <strong>Tools used:</strong> Figma<br>
+        <strong>Techniques:</strong> Wireframing, Prototyping, User Flows, Personas
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Education</h2>
+      <div class="education">
+        Damietta University – Faculty of Computers & Information<br>
+        Computer Science Department<br>
+        <strong>Expected Graduation:</strong> 2026
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Languages</h2>
+      <p>Arabic (Native), English (Very Good)</p>
+    </section>
+
+    <section class="section">
+      <h2>Courses</h2>
+      <p>UI/UX Design – NTI, Self-learning (Online)</p>
+    </section>
+
+  </div>
 </body>
 </html>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/amani-karem-8a6162324/">My Profile</a></p>
-</body>
-</html>
+
